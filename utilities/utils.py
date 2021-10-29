@@ -11,7 +11,7 @@ class Utils(softest.TestCase):
             self.soft_assert(self.assertEqual, item.text, value)
             # if item.text == value:
             if item.text !=None and item.text in value:
-                print("Assert PASS")
+                print("Assert PASS ")
             else:
                 print("Assert FAILED")
         self.assert_all()
