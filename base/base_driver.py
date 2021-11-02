@@ -30,4 +30,5 @@ class BaseDriver:
         clickable_element = wait.until(EC.element_to_be_clickable((locator_type, locator)))
         return clickable_element
 
-    
+    def test_method(self):
+        print("Checking Merge Conflict")
