@@ -32,3 +32,6 @@ class BaseDriver:
 
     def test_method(self):
         print("Checking Merge Conflict")
+
+    def SDET1_test_method(self):
+        print("SDET 1 Checking Merge Conflict")
